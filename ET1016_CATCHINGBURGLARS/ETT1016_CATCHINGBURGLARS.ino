@@ -11,9 +11,9 @@
 
 #define LDR A0
 #define IR 2
-
+ //needs sound input code for the buzzer
 int armed = 0;
-int ldrThreshold = 300;
+int ldrThreshold = 300; //change LDR threshold
 
 void setup() {
   pinMode(BTN, INPUT);
